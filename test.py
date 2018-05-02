@@ -1,15 +1,15 @@
-birthdays = {'a':'a1','b':'b1'}
+"""import pprint
 
-name = 'a'
+message = 'It was a bright cold day in April, and the clocks were striking thirteen.'
+count = {}
 
-print(birthdays[name])
+for character in message:
+    count.setdefault(character,0)
+    count[character] = count[character]+1
 
-for i in birthdays.values():
-    print(i)
+pprint.pprint(count)"""
 
-for x in    birthdays.keys():
-    print(x)
+str ='ddfdfdf'
 
-for y in birthdays.items():
-    print(y)
-
+if str.startswith('d'):
+    print('ddd')
